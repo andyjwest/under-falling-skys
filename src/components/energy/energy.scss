@@ -1,0 +1,16 @@
+.energy-bar {
+  border: 5px solid grey;
+  border-radius: 10px;
+  display: flex;
+  width: 25px;
+  flex-direction: column-reverse;
+
+  > div {
+    width: 100%;
+    text-align: center;
+  }
+
+  > .full {
+    background-color: yellow;
+  }
+}

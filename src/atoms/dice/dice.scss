@@ -1,0 +1,18 @@
+.dice {
+  border-radius: 5px;
+  height: 25px;
+  line-height: 25px;
+  width: 25px;
+  text-align: center;
+  &.black {
+    background-color: black;
+    color: white;
+  }
+  &.white{
+    background-color: white;
+  }
+  &.blue {
+    background-color: blue;
+    color: white;
+  }
+}

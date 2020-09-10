@@ -1,0 +1,22 @@
+.lab {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  .step {
+    min-width: 50px;
+    border: 2px solid #000000;
+    min-height: 50px;
+    position: relative;
+    > div {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) scale(1.25);
+    }
+    &.full {
+      background-color: green;
+    }
+  }
+}
