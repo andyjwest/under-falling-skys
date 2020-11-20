@@ -1,4 +1,4 @@
-export const excavatorLocation = (easy) => easy ? [2,3] : [1,3]
+export const excavatorLocation = (easy) => easy ? [8] : [8]
 
 export const base1Easy = [
     {type: ['down']},
@@ -16,7 +16,7 @@ export const base1Easy = [
     {type: ['research'], energyCost: 1},
     {type: ['energy'], columnSpan: 2},
     {type: ['fighter'], energyCost: 2},
-    {type: ['excovator']}
+    {type: ['excavator']}
 ]
 export const base1Hard = [
     {type: ['down']},
@@ -28,7 +28,7 @@ export const base1Hard = [
     {type: ['energy'], diceModifier: -2, columnSpan: 2},
     {type: ['fighter'], energyCost: 2},
     {type: ['research'], diceModifier: -2},
-    {type: ['excovator']},
+    {type: ['excavator']},
 
     {type: ['fighter'], energyCost: 2, diceModifier: 1},
     {type: ['research'], energyCost: 2, diceModifier: 1},

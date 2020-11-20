@@ -1,8 +1,8 @@
 import React from 'react'
 import func, {arrayOf, bool, number, oneOf} from 'prop-types'
-import {Bolt, types} from "../../atoms/icons/Icons";
+import {Bolt, types} from "../../../atoms/icons/Icons";
 import './space.scss'
-import Dice from "../../atoms/dice/Dice";
+import Dice from "../../../atoms/dice/Dice";
 
 export default function Space({columnSpan, rowStart, rowEnd, type, energyCost, diceModifier, dieValue, excavated}) {
 

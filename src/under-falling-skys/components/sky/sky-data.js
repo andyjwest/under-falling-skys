@@ -1,5 +1,9 @@
-export const rows = (difficultly) => [...tile1(difficultly[0]), ...tile2(difficultly[1]), ...tile3(difficultly[2]), ...tile4(difficultly[3])]
+export const rows = (difficultly) => [
+    ...tile1(difficultly[0]), ...tile2(difficultly[1]), ...tile3(difficultly[2]), ...tile4(difficultly[3])]
 
+const shift = (value, shipContext) => {
+    shipContext.shift(value)
+}
 
 export const tile1 = (easy) => easy ? [
     [{}, {}, {}, {}, {}],

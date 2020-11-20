@@ -2,12 +2,13 @@
   border: 5px solid grey;
   border-radius: 10px;
   display: flex;
-  width: 25px;
+  width: 50px;
   flex-direction: column-reverse;
 
   > div {
     width: 100%;
     text-align: center;
+    height: 30px;
   }
 
   > .full {
