@@ -1,5 +1,5 @@
 import React from "react";
-import icon from './alien.svg'
+import icon from '../../../atoms/icons/mothership.svg'
 
 export const Mothership = props => {
     //TODO reinforcements

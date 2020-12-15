@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+     viewBox="0 0 485 485" style="enable-background:new 0 0 485 485;" xml:space="preserve">
+<g>
+	<polygon points="319.317,0 319.317,30 455,30 455,166.667 485,166.667 485,0" fill="red"/>
+    <polygon points="455,455 319.317,455 319.317,485 485,485 485,318.333 455,318.333" fill="red"/>
+    <polygon points="30,318.333 0,318.333 0,485 167.65,485 167.65,455 30,455" fill="red"/>
+    <polygon points="0,166.667 30,166.667 30,30 167.65,30 167.65,0 0,0 " fill="red"/>
+</g>
+</svg>

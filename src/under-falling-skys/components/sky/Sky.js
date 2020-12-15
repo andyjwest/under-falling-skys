@@ -5,6 +5,8 @@ import './sky.scss'
 import SkySpace from "./SkySpace";
 import ShipsContext from '../../../ships-context'
 import Ship from "../../../atoms/ship/Ship";
+import {ReactComponent as Mothership} from "../../../atoms/icons/mothership.svg";
+import Bracket from "../../../atoms/icons/Bracket";
 
 const Sky = ({difficultly, motherShipRow}) => {
 
@@ -30,8 +32,8 @@ const Sky = ({difficultly, motherShipRow}) => {
                         {Object.entries(cell).map(([key, value]) => {
                             switch (key) {
                                 case 'shift' : return <>Move {value}</>
-                                case 'fighter' : return <>Fighter {value}</>
-                                case 'mothership' : return <>Mothership {value}</>
+                                case 'fighter' : return <Bracket size='50px' value={value}/>
+                                case 'mothership' : return <Mothership style={{width: '50px', height: '50px'}}/>
                                 default : return <></>
                             }
                         })}</SkySpace>
