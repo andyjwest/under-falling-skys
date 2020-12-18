@@ -1,0 +1,20 @@
+.threat-level {
+    display: flex;
+}
+
+.hull {
+    background-color: slategrey;
+    color: whitesmoke;
+    padding: 1em;
+    width: 1em;
+    text-align: center;
+    border: 1px solid whitesmoke;
+}
+
+.row {
+    display: flex;
+}
+
+div.damaged {
+    background-color: darkred;
+}

@@ -1,0 +1,11 @@
+.shields {
+    background-color: lightgreen;
+    color: black;
+    padding: 1em;
+    text-align: center;
+    border: 1px solid slategrey;
+}
+
+div.down {
+    background-color: whitesmoke;
+}

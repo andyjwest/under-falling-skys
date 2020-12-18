@@ -1,0 +1,66 @@
+.card {
+    background-color: whitesmoke;
+    padding: .5em;
+    text-align: center;
+    border: 1px solid darkred;
+    border-radius: 5px;
+    width: 20em;
+    height: 10em;
+}
+
+.activation {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.activation-number {
+    padding: .5em;
+    margin: .25em;
+    width: 1em;
+    font-size: 1.5em;
+    text-align: center;
+    border: 1px solid slategrey;
+}
+
+.health {
+    display: flex;
+    border: 1px solid darkred;
+    border-radius: 5px;
+    height: 10px;
+}
+
+.health-bar {
+    background-color: darkred;
+    width: 25%;
+}
+
+.away-mission {
+    height: 2em;
+    display: flex;
+    justify-content: end;
+}
+
+.icon {
+    height: 2em;
+    width: 2em;
+}
+
+.fire-overlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.fire-overlay:hover {
+    background-color: darkred;
+    opacity: .5;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    transition: background-color .25s;
+}

@@ -2,7 +2,7 @@ import React from "react";
 import MothershipAction from "./MothershipAction";
 
 export default {
-    title: 'Components/Mothership Action',
+    title: 'Components/MotherShip Action',
     component: MothershipAction
 }
 

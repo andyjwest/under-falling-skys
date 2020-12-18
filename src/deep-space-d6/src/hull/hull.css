@@ -1,0 +1,11 @@
+.hull {
+    background-color: slategrey;
+    color: whitesmoke;
+    padding: 1em;
+    text-align: center;
+    border: 1px solid whitesmoke;
+}
+
+div.damaged {
+    background-color: darkred;
+}

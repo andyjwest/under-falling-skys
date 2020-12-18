@@ -9,5 +9,5 @@ export default React.createContext({
         {x: 0, y: 0},
     ],
     shift: (value, index) => {},
-    moveMothership: (value)=> {},
+    moveMotherShip: (value)=> {},
 })

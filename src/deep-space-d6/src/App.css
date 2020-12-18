@@ -1,0 +1,8 @@
+.flex {
+  display: flex;
+}
+
+.space-evenly {
+  display: flex;
+  justify-content: space-evenly;
+}
